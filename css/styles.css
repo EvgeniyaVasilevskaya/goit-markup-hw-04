@@ -169,6 +169,19 @@ p {
   width: 270px;
 }
 
+.main-item::before {
+  display: block;
+  margin-bottom: 30px;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+border-radius: 4px;
+background-color: var(--sectionbg-background);
+
+}
+
 .main-item:not(:last-child) {
   margin-right: 30px;
 }
