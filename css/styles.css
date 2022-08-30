@@ -124,8 +124,15 @@ p {
 .section-cap {
   padding: 200px 0;
   margin: auto;
-  background: var(--footer-background);
   text-align: center;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/fon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cap-title {
@@ -172,14 +179,13 @@ p {
 .main-item::before {
   display: block;
   margin-bottom: 30px;
-  content: "";
+  content: '';
   height: 120px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-border-radius: 4px;
-background-color: var(--sectionbg-background);
-
+  border-radius: 4px;
+  background-color: var(--sectionbg-background);
 }
 
 .main-item:not(:last-child) {
@@ -251,6 +257,8 @@ background-color: var(--sectionbg-background);
 }
 
 .team-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .team-image {
@@ -359,6 +367,8 @@ background-color: var(--sectionbg-background);
 .button-filter:focus {
   color: var(--button-text-color);
   background-color: var(--accent-color);
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .project {
@@ -370,7 +380,7 @@ background-color: var(--sectionbg-background);
 
 .project-item {
   box-sizing: border-box;
-    width: 370px;
+  width: 370px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #eeeeee;
@@ -380,7 +390,13 @@ background-color: var(--sectionbg-background);
   border-right-width: 1px;
   border-right-style: solid;
   border-right-color: #eeeeee;
-  
+}
+
+.project-item:hover {
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px; */
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-image {
