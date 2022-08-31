@@ -506,19 +506,29 @@ color: var(--button-text-color);
 
 .networks-list {
   display: flex;
+  gap: 10px;
+  /* justify-content: center; єто под фото */
+  
 }
 
 .networks-item {
   width: 44px;
-
+/* padding: 12px; */
 height: 44px;
-padding: 12px;
-border-radius: 50%;
-outline: 1px solid tomato;
+/* border-radius: 50%;
+outline: 1px solid tomato; */
 fill: var(--button-text-color);
 }
 
 .networks {
+  display: flex;
+  fill: var(--button-text-color);
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+outline: 1px solid tomato;
 
 }
 
@@ -544,3 +554,21 @@ fill: var(--button-text-color);
     background: var(--footer-scl-cl); 
     border-radius: 50%;
     content: "" */
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+.socials-link {
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  color: blue;
+  background-color: red;
+  border-radius: 50%;}      
+      
