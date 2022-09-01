@@ -9,6 +9,7 @@
   --sectionbg-background: #f5f4fa;
   --fond-background: #f5f5f5;
   --border-color: #ececec;
+  --svg-color-icon: #afb1b8;
 }
 
 body {
@@ -109,6 +110,9 @@ p {
 }
 
 .contacts-item-link {
+  display: inline-flex;
+  align-items: center;
+
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
@@ -121,6 +125,10 @@ p {
   color: var(--accent-color);
 }
 
+.icon-contacts {
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
 .section-cap {
   padding: 200px 0;
   margin: auto;
@@ -189,16 +197,6 @@ p {
 .icon {
   background-color: var(--sectionbg-background);
   border-radius: 4px;
-  width: 270px;
-  height: 120px;
-}
-.icon-antenna::before {
-}
-.icon-clock::before {
-}
-.icon-diagram::before {
-}
-.icon-astronaut::before {
 }
 
 .main-item:not(:last-child) {
@@ -302,22 +300,26 @@ p {
 
 .customers-list {
   display: flex;
+  gap: 30px;
 }
 
 .customers-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+
+  margin-bottom: 50px;
 }
 
 .icon-customers {
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--svg-color-icon);
   border-radius: 4px;
   width: 170px;
   height: 92px;
+  fill: var(--svg-color-icon);
 }
 
 .customers-item {
@@ -534,7 +536,7 @@ p {
   width: 44px;
   height: 44px;
 
-  fill: #afb1b8;
+  fill: var(--svg-color-icon);
 }
 
 .socials-link:hover,
