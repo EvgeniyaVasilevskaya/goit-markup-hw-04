@@ -35,14 +35,22 @@
         </nav>
         <ul class="contacts">
           <li class="contacts-item"
-            ><a class="contacts-item-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            ></li
+            >
+            <a class="contacts-item-link" href="mailto:info@devstudio.com">
+              <svg  width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a></li
           >
           <li class="contacts-item"
-            ><a class="contacts-item-link" href="tel:+380961111111">+38 096 111 11 11</a></li
+            ><a class="contacts-item-link" href="tel:+380961111111">
+              <svg width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a></li
           >
-        </ul></div
+        </ul>
+        </div
       >
     </header>
 
@@ -182,30 +190,75 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <a href="" class="logo-footer"><span class="logo-start">Web</span>Studio</a>
-        <address class="address">
-          <ul class="list-address">
-            <li class="item-address"
-              ><a
-                class="link-address"
-                href="https://goo.gl/maps/osc72HWqu3pmYaWj7"
+      <div class="container footer-container">
+        <div class="container-adress">
+          <a href="" class="logo-footer"><span class="logo-start">Web</span>Studio</a>
+          <address class="address">
+            <ul class="list-address">
+              <li class="item-address"
+                ><a
+                  class="link-address"
+                  href="https://goo.gl/maps/osc72HWqu3pmYaWj7"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                ></li
+              >
+              <li class="item-address"
+                ><a class="link-address-mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                ></li
+              >
+              <li class="item-address"
+                ><a class="link-address-tel" href="tel:+380961111111">+38096 111 11 11</a></li
+              >
+            </ul>
+          </address>
+        </div>
+        <div class="container-social">
+          <h3 class="networks-title">приєднуйтесь</h3>
+          <ul class="networks-list">
+            <li class="networks-item">
+              <a
+                class="networks-link"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer noopener"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              ></li
-            >
-            <li class="item-address"
-              ><a class="link-address-mail" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              ></li
-            >
-            <li class="item-address"
-              ><a class="link-address-tel" href="tel:+380961111111">+38096 111 11 11</a></li
-            >
+                aria-label="Instagram"
+              >
+              <svg class="networks" width="20" height="20">
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg> </a>
+            </li>
+            <li class="networks-item">
+              <a class="networks-link"
+                 href="https://twitter.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label="Twitter"
+                      >
+                        <svg class="networks" width="20" height="20">
+                          <use href="./images/symbol-defs.svg#icon-twitter"></use></svg
+                      ></a>
+            </li>
+            <li class="networks-item">
+              <a class="networks-link" href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener" aria-label="Facebook">
+                <svg class="networks" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="networks-item">
+              <a class="networks-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+                <svg class="networks" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
+      
     </footer>
   </body>
 </html>

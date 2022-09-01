@@ -35,12 +35,19 @@
         </nav>
         <ul class="contacts">
           <li class="contacts-item"
-            ><a class="contacts-item-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            ></li
+            >
+            <a class="contacts-item-link" href="mailto:info@devstudio.com">
+              <svg  width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a></li
           >
           <li class="contacts-item"
-            ><a class="contacts-item-link" href="tel:+380961111111">+38 096 111 11 11</a></li
+            ><a class="contacts-item-link" href="tel:+380961111111">
+              <svg width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a></li
           >
         </ul>
       </div>
@@ -60,7 +67,7 @@
           <ul class="main-list">
             <li class="main-item icon-antenna">
               <div class="icon-box">
-                <svg class="icon">
+                <svg class="icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-antenna" width="70" height="70"></use>
                 </svg>
               </div>
@@ -71,7 +78,7 @@
             </li>
             <li class="main-item icon-clock">
               <div class="icon-box">
-                <svg class="icon">
+                <svg class="icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-clock" width="70" height="70"></use>
                 </svg>
               </div>
@@ -82,7 +89,7 @@
             </li>
             <li class="main-item icon-diagram">
               <div class="icon-box">
-                <svg class="icon">
+                <svg class="icon" width="70" height="70">
                 <use href="./images/symbol-defs.svg#icon-diagram" width="70" height="70""></use>
               </svg></div>
               <h3 class="main-title">ПЛАНУВАННЯ</h3>
@@ -92,7 +99,7 @@
             </li>
             <li class="main-item icon-astronaut">
               <div class="icon-box">
-                <svg class="icon">
+                <svg class="icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-astronaut" width="70" height="70"></use>
                 </svg>
               </div>
@@ -441,68 +448,75 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <a href="" class="logo-footer"><span class="logo-start">Web</span>Studio</a>
-        <address class="address">
-          <ul class="list-address">
-            <li class="item-address"
-              ><a
-                class="link-address"
-                href="https://goo.gl/maps/osc72HWqu3pmYaWj7"
+      <div class="container footer-container">
+        <div class="container-adress">
+          <a href="" class="logo-footer"><span class="logo-start">Web</span>Studio</a>
+          <address class="address">
+            <ul class="list-address">
+              <li class="item-address"
+                ><a
+                  class="link-address"
+                  href="https://goo.gl/maps/osc72HWqu3pmYaWj7"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                ></li
+              >
+              <li class="item-address"
+                ><a class="link-address-mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                ></li
+              >
+              <li class="item-address"
+                ><a class="link-address-tel" href="tel:+380961111111">+38096 111 11 11</a></li
+              >
+            </ul>
+          </address>
+        </div>
+        <div class="container-social">
+          <h3 class="networks-title">приєднуйтесь</h3>
+          <ul class="networks-list">
+            <li class="networks-item">
+              <a
+                class="networks-link"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer noopener"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              ></li
-            >
-            <li class="item-address"
-              ><a class="link-address-mail" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              ></li
-            >
-            <li class="item-address"
-              ><a class="link-address-tel" href="tel:+380961111111">+38096 111 11 11</a></li
-            >
-          </ul>
-        </address>
-      </div>
-      <div class="container">
-        <h3 class="networks-title">приєднуйтесь</h3>
-        <ul class="networks-list">
-          <li class="networks-item">
-            <a
-              class="networks"
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noreferrer noopener"
-              aria-label="Instagram"
-            >
+                aria-label="Instagram"
+              >
               <svg class="networks" width="20" height="20">
                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="networks-item">
-            <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">
-              <svg class="networks" width="20" height="20">
-                <use href="./images/symbol-defs.svg#icon-twitter"></use></svg
-            ></a>
-          </li>
-          <li class="networks-item">
-            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">
-              <svg class="networks" width="20" height="20">
-                <use href="./images/symbol-defs.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="networks-item">
-            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener">
-              <svg class="networks" width="20" height="20">
-                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+              </svg> </a>
+            </li>
+            <li class="networks-item">
+              <a class="networks-link"
+                 href="https://twitter.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label="Twitter"
+                      >
+                        <svg class="networks" width="20" height="20">
+                          <use href="./images/symbol-defs.svg#icon-twitter"></use></svg
+                      ></a>
+            </li>
+            <li class="networks-item">
+              <a class="networks-link" href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener" aria-label="Facebook">
+                <svg class="networks" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="networks-item">
+              <a class="networks-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+                <svg class="networks" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+      
     </footer>
   </body>
 </html>
