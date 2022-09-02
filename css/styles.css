@@ -106,12 +106,6 @@ p {
   gap: 50px;
 }
 
-/* .contacts-item:hover,
-.contacts-item:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-} */
-
 .contacts-item-link {
   display: inline-flex;
   align-items: center;
@@ -121,6 +115,7 @@ p {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
+  fill: var(--primary-text-color);
 }
 
 .contacts-item-link:hover,
@@ -131,7 +126,6 @@ p {
 
 .icon-contacts {
   margin-right: 10px;
-  fill: var(--primary-text-color);
 }
 
 .section-cap {
@@ -448,6 +442,10 @@ p {
 
 .project-item {
   width: 370px;
+}
+.project-link {
+  display: block;
+  text-decoration: none;
 }
 
 .project-link:hover,
