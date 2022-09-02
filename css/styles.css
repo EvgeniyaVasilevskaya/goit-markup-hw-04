@@ -123,8 +123,6 @@ p {
   text-decoration: none;
 }
 
-.icon-contacts:hover,
-.icon-contacts:focus,
 .contacts-item-link:hover,
 .contacts-item-link:focus {
   color: var(--accent-color);
@@ -148,6 +146,9 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cap-title {
@@ -310,6 +311,19 @@ p {
   gap: 30px;
 }
 
+.customers-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid var(--svg-color-icon);
+  border-radius: 4px;
+  fill: var(--svg-color-icon);
+}
+
 .customers-title {
   font-weight: 700;
   font-size: 36px;
@@ -322,23 +336,17 @@ p {
 }
 
 .icon-customers {
-  border: 1px solid var(--svg-color-icon);
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  fill: var(--svg-color-icon);
+  /* width: 170px;
+  height: 92px; */
 }
 
 .customers-item {
-  display: flex;
-  gap: 30px;
+  width: calc((100% - 150px) / 6);
+  height: 92px;
 }
 
-.icon-customers:not(:last-child) {
-  margin-right: 30px;
-}
-.icon-customers:hover,
-.icon-customers:focus {
+.customers-link:hover,
+.customers-link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -439,22 +447,12 @@ p {
 }
 
 .project-item {
-  box-sizing: border-box;
   width: 370px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #eeeeee;
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: #eeeeee;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #eeeeee;
 }
 
-.project-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.project-link:hover,
+.project-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-image {
@@ -483,9 +481,9 @@ p {
 
 .container-project-text {
   padding: 20px 24px;
-  border: 1px solid var(--color8);
-  border-right-width: 1px;
-  border-left-width: 1px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .container-team {
