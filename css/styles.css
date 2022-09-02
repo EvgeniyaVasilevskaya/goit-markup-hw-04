@@ -106,8 +106,11 @@ p {
   gap: 50px;
 }
 
-.contacts-item {
-}
+/* .contacts-item:hover,
+.contacts-item:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+} */
 
 .contacts-item-link {
   display: inline-flex;
@@ -120,15 +123,19 @@ p {
   text-decoration: none;
 }
 
+.icon-contacts:hover,
+.icon-contacts:focus,
 .contacts-item-link:hover,
 .contacts-item-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .icon-contacts {
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
+
 .section-cap {
   padding: 200px 0;
   margin: auto;
