@@ -186,12 +186,12 @@ p {
 
 .icon-box {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    min-height: 120px;
-    background: var(--sectionbg-background);
-    border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  min-height: 120px;
+  background: var(--sectionbg-background);
+  border-radius: 4px;
 }
 
 .icon {
@@ -332,8 +332,8 @@ p {
 }
 .icon-customers:hover,
 .icon-customers:focus {
-fill: var(--accent-color);
-border-color: var(--accent-color);
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 .footer {
   background: var(--footer-background);
