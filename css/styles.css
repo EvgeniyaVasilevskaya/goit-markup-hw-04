@@ -10,6 +10,7 @@
   --fond-background: #f5f5f5;
   --border-color: #ececec;
   --svg-color-icon: #afb1b8;
+  --border-color-portfolio: #eeeeee;
 }
 
 body {
@@ -479,9 +480,9 @@ p {
 
 .container-project-text {
   padding: 20px 24px;
-  border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border-left: 1px solid var(--border-color-portfolio);
+  border-bottom: 1px solid var(--border-color-portfolio);
+  border-right: 1px solid var(--border-color-portfolio);
 }
 
 .container-team {
