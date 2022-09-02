@@ -330,7 +330,11 @@ p {
 .icon-customers:not(:last-child) {
   margin-right: 30px;
 }
-
+.icon-customers:hover,
+.icon-customers:focus {
+fill: var(--accent-color);
+border-color: var(--accent-color);
+}
 .footer {
   background: var(--footer-background);
   padding-top: 60px;
